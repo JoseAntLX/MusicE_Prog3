@@ -1,0 +1,193 @@
+/* Formateo del doc */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size: 12px; */
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Cuerpo */
+body {
+    background-color: #121921;
+}
+
+/* Barra de navegacion */
+nav {
+    text-align: right;
+    margin: 20px 5px;
+}
+
+#login {
+    color: black;
+    margin: 0 20px;
+    padding: 9px 15px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+#login:hover {
+    transition: 0.5s;
+    background-color: hsl(275, 44%, 28%);
+    color: white;
+
+}
+
+nav>a {
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+
+nav>a:hover{
+    color: hsl(275, 37%, 65%);
+}
+
+/* --------------- */
+.contenido {
+    margin-left: 90px;
+    background-image: url(../Img/audifonos1-copia.jpg);
+    background-position-x: 95%;
+    background-position-y: 0%;
+    background-size: 620px 800px;
+    background-repeat: no-repeat;
+}
+
+/* ---------------- */
+.principal {
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+/* Linea vertical */
+.vertical {
+    height: 790px;
+    position: absolute;
+    display: flex;
+    margin: 5px 10px;
+    padding: 20px 10px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background: -webkit-linear-gradient(to top, hsla(275, 67%, 13%, 0.61), hsla(350, 81%, 42%, 0.603));
+    background: linear-gradient(to top, hsla(275, 67%, 13%, 0.61), hsla(350, 81%, 42%, 0.603));
+}
+
+.vertical>h2 {
+    font-weight: 60px;
+    /* margin: 20px 10px; */
+    height: 330px;
+    text-align: center;
+}
+
+.v-line {
+    border-left: solid 2px white;
+    height: 100%;
+    align-self: center;
+}
+
+/* ---------------- */
+.title-princ {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-princ>h2 {
+    font-weight: lighter;
+    /* font-family: 'Helvetica'; */
+    font-size: 50px;
+}
+
+.simbolo {
+    margin: 0 0 0 165px;
+    padding: 6px;
+    background-color: green;
+    border-radius: 6px;
+    width: 6px;
+    /* float: left; */
+
+    /* position: absolute; */
+    /* margin-right: 0; */
+}
+
+.text-central {
+    width: 100%;
+}
+
+.text-central>* {
+    margin-bottom: 15px;
+}
+
+.text-sec {
+    font-size: 50px;
+}
+
+.text-ter {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    width: 40%;
+}
+
+#info{
+    margin-top: 40px;
+}
+
+/* ----------------------- */
+.btn-descargar {
+    font-weight: bold;
+    font-size: 20px; 
+    border: 0;
+    color: black;
+    padding: 9px 15px;
+    background-color: aliceblue;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+
+.btn-descargar:hover {
+    transition: 0.5s;
+    background-color: #43BA9C;
+    color: white;
+}
+
+/* ---------------- */
+.inferior {
+    margin-top: 50px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.el_inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 120px;
+    padding: 20px;
+    border: solid 1px white;
+}
+
+.el_inf>h3 {
+    margin-bottom: 15px;
+}
+
+
+footer{
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    background-color: hsla(275, 67%, 13%, 0.61);
+    align-items: center;
+}
+
+footer>h2{
+    margin-right: 450px;
+}
